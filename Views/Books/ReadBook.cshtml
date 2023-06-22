@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Books";
+   
+}
+
+
+<div>
+    <div class="text-sm w-fit italic">Spirtual</div>
+        <h2 class="text-4xl font-semibold">@ViewBag.book.Title</h2>
+        <div class="flex text-sm gap-2 text-zinc-500">
+            <div class="text-blue-600 ">Paulo Cohelo</div>
+            <div>Language: English, Brazillian</div>
+    </div>
+   
+    <hr class="my-4 bg-zinc-400">
+    <embed src="~/assets/ebook.pdf" class="w-full h-[100vh]" type="application/pdf">
+</div>

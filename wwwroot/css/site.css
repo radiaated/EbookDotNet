@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sl-btn {
+    @apply bg-blue-500 px-4 py-2 font-semibold border border-blue-600 hover:bg-blue-700 rounded-sm text-white mt-4;
+  }
+
+  .title {
+    @apply text-xl font-semibold mb-4 after:block after:bg-zinc-300 after:w-full after:h-[1px] after:mt-4;
+  }
+
+
+
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f7f7f7;
+}

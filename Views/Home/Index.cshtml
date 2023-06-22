@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Books";
+   
+}
+
+
+<div class="">
+    @* <h1 class="display-4">All Books</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+    <h2 class="text-2xl font-semibold">Top Books</h2>
+    <hr class="my-4 bg-zinc-400">
+    <div class="grid grid-cols-4 gap-10">
+    @foreach (var book in ViewBag.books)
+    {
+        <div class="bg-white hover:scale-105 duration-100 shadow-md border border-zinc-100">
+            <a asp-controller="Books" asp-action="Book" asp-route-Id=@book.Id>
+                @{
+                    string CoverPath = $"/assets/{book.Cover}"; 
+                }
+                <img src=@CoverPath class="block h-64 w-full object-cover" />
+                <div class="p-3">
+                    <h2 class="text-xl font-semibold">@book.Title</h2>
+                    @* <p>@book.Description</p> *@
+                    @* <p>@if(book.AvailableStatus) {<p>Available</p>}</p> *@
+
+                    <div class="flex items-center gap-2">
+                        <div>Pulo Cohelo</div>
+                        <div class="italic text-sm text-zinc-500">Spiritual</div>
+
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    }
+    </div>
+
+    
+
+</div>

@@ -1,0 +1,37 @@
+@model Ebook.Models.Book
+@{
+    ViewData["Title"] = "User Books";
+   
+}
+
+
+
+<div class="w-[700px] mx-auto">
+    @* <h1 class="display-4">All Books</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+    <h2 class="text-2xl font-semibold">Your Books</h2>
+    <hr class="my-4 bg-zinc-400">
+    
+    <ul class="flex flex-col gap-4">
+    @foreach (var b in ViewBag.Userb)
+    {
+        <li class="grid grid-cols-5 bg-white border border-zinc-200 shadow-md relative">
+            <img src="~/assets/alchemist-cover.jpg" class="block h-32 w-full object-cover" alt="">
+            <div class="col-span-3 p-4">
+                @* <h2>@b.Title</h2>  *@
+                <h2>Title1</h2> 
+                <div class="text-sm italic text-zinc-400">(Spiritual)</div>
+                <div class="flex text-sm gap-2 text-zinc-500">
+                    <div class="text-blue-600 ">Paulo Cohelo</div>
+                    <div>Language: English, Brazillian</div>
+                </div>
+            </div>
+            <a asp-controller="Books" asp-action="ReadBook" asp-route-id=@b.Id class="flex h-full text-lg text-blue-500 hover:text-blue-700 font-semibold hover:underline hover:underline-offset-2 items-center">Read</a>
+            <a asp-controller="Books" asp-action="DeleteUserBook" asp-route-id=@b.Id class="block cursor-pointer absolute -top-2 -right-2 bg-red-500 p-2 text-xs text-white font-bold rounded-full">X</a>
+        </li>
+    }
+    </ul>
+
+    
+
+</div>
