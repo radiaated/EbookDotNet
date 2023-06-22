@@ -18660,8 +18660,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Admin\\Login.cshtml",
+      "TargetPath": "Views\\Admin\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Admin\\ViewBooks.cshtml",
+      "TargetPath": "Views\\Admin\\ViewBooks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Books\\Book.cshtml",
       "TargetPath": "Views\\Books\\Book.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Admin\\CreateBook.cshtml",
+      "TargetPath": "Views\\Admin\\CreateBook.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18682,6 +18697,11 @@
     {
       "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Books\\ReadBook.cshtml",
       "TargetPath": "Views\\Books\\ReadBook.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Admin\\EditBook.cshtml",
+      "TargetPath": "Views\\Admin\\EditBook.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18707,6 +18727,11 @@
     {
       "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\Views\\Admin\\Register.cshtml",
+      "TargetPath": "Views\\Admin\\Register.cshtml",
       "FileKind": "mvc"
     }
   ],

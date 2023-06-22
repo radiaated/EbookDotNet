@@ -5,14 +5,15 @@ using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ModelsDbContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("constr")));
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ModelsDbContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ModelsDbContext>().AddRoles<IdentityRole>();
+// builder.Services.AddDefaultIdentity<IdentityUser>(option => {}).AddRoles<IdentityRole>();
 
 // builder.Services.AddDefaultIdentity<IdentityUser> 
 //     (options => 

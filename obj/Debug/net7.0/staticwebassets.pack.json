@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Ebook.bundle.scp.css"
     },
     {
+      "Id": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\1687339990597942.docx",
+      "PackagePath": "staticwebassets\\assets\\1687339990597942.docx"
+    },
+    {
+      "Id": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\Cat03.jpg",
+      "PackagePath": "staticwebassets\\assets\\Cat03.jpg"
+    },
+    {
       "Id": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\alchemist-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\alchemist-cover.jpg"
     },
@@ -15,6 +23,10 @@
     {
       "Id": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\the-maritan-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\the-maritan-cover.jpg"
+    },
+    {
+      "Id": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\दुर-शिक्षा प्राणली नेपाल.png",
+      "PackagePath": "staticwebassets\\assets\\दुर-शिक्षा प्राणली नेपाल.png"
     },
     {
       "Id": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\css\\site.css",

@@ -19,11 +19,11 @@
             <img src="~/assets/alchemist-cover.jpg" class="block h-32 w-full object-cover" alt="">
             <div class="col-span-3 p-4">
                 @* <h2>@b.Title</h2>  *@
-                <h2>Title1</h2> 
-                <div class="text-sm italic text-zinc-400">(Spiritual)</div>
+                <h2>@b.Title</h2> 
+                <div class="text-sm italic text-zinc-400">(@b.category)</div>
                 <div class="flex text-sm gap-2 text-zinc-500">
-                    <div class="text-blue-600 ">Paulo Cohelo</div>
-                    <div>Language: English, Brazillian</div>
+                    <div class="text-blue-600 ">@b.Author</div>
+                    <div>Language: @b.Language</div>
                 </div>
             </div>
             <a asp-controller="Books" asp-action="ReadBook" asp-route-id=@b.Id class="flex h-full text-lg text-blue-500 hover:text-blue-700 font-semibold hover:underline hover:underline-offset-2 items-center">Read</a>

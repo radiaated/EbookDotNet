@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Books";
+   
+}
+
+
+<div class="bg-white p-4">
+    <a asp-controller="Admin" asp-action="CreateBook" class="block border-2 text-blue-500 font-medium border-blue-500 px-4 py-2 hover:bg-blue-500 hover:text-white duration-200 mb-2 w-fit rounded-md">Create +</a>
+    @* <h1 class="display-4">All Books</h1>
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+    <h2 class="text-2xl font-semibold">Books</h2>
+    <hr class="my-4 bg-zinc-400">
+    <div class="flex flex-col gap-4">
+    @foreach (var book in ViewBag.books)
+    {
+        <div class="grid grid-cols-5">
+            
+                 @{
+                    string CoverPath = $"/assets/{book.Cover}"; 
+                 }
+                <img src=@CoverPath class="block h-32 w-full object-cover" />
+                <div class="p-3 col-span-3">
+                    <h2 class="text-xl font-semibold">@book.Title</h2>
+                    @* <p>@book.Description</p> *@
+                    @* <p>@if(book.AvailableStatus) {<p>Available</p>}</p> *@
+
+                    <div class="flex items-center gap-2">
+                        <div>@book.Author</div>
+                        <div class="italic text-sm text-zinc-500">@book.category</div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 ali">
+                    <a class="block bg-red-500 border border-red-800 hover:bg-red-600 text-white px-2 py-1 w-ful text-center font-medium rounded-sm" asp-controller="Admin" asp-action="EditBook" asp-route-id=@book.Id>Edit</a>
+                    <a class="block bg-blue-500 border border-blue-800 hover:bg-blue-600 text-white px-2 py-1 w-ful text-center font-medium rounded-sm" asp-controller="Admin" asp-action="DeleteBook" asp-route-id=@book.Id>Delete</a>
+                </div>
+            
+        </div>
+    }
+    </div>
+
+    
+
+</div>

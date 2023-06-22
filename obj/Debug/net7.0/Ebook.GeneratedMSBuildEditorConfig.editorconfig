@@ -9,61 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ebook
 build_property.RootNamespace = Ebook
-build_property.ProjectDir = e:\Colz Notes\Sixth Sem\DotNet\Ebook\
+build_property.ProjectDir = E:\Colz Notes\Sixth Sem\DotNet\Ebook\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = e:\Colz Notes\Sixth Sem\DotNet\Ebook
+build_property.MSBuildProjectDirectory = E:\Colz Notes\Sixth Sem\DotNet\Ebook
 build_property._RazorSourceGeneratorDebug = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Account/Login.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Account/Register.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/Book.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Admin/CreateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Admin/EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Admin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Admin/ViewBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0Jvb2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/Book.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/Index.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/ReadBook.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/ReadBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcUmVhZEJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/UserBooks.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Books/UserBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcVXNlckJvb2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Home/Index.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Home/Privacy.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Shared/Error.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/_ViewImports.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/_ViewStart.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Shared/_Layout.cshtml]
+[E:/Colz Notes/Sixth Sem/DotNet/Ebook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vlnic3ktqw

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "96eR4GIMIi0mUGJFu1I60maB+nvSDUakaXpQMiVBE1Y=",
+  "Hash": "mVcIVUKFSRh+QrCOvTcJyh8rlBAX8d8zhdk6Ucc5miU=",
   "Source": "Ebook",
   "BasePath": "_content/Ebook",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Ebook.bundle.scp.css"
     },
     {
+      "Identity": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\1687339990597942.docx",
+      "SourceId": "Ebook",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\",
+      "BasePath": "_content/Ebook",
+      "RelativePath": "assets/1687339990597942.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\1687339990597942.docx"
+    },
+    {
       "Identity": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\alchemist-cover.jpg",
       "SourceId": "Ebook",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\alchemist-cover.jpg"
+    },
+    {
+      "Identity": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\Cat03.jpg",
+      "SourceId": "Ebook",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\",
+      "BasePath": "_content/Ebook",
+      "RelativePath": "assets/Cat03.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Cat03.jpg"
     },
     {
       "Identity": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\ebook.pdf",
@@ -100,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\the-maritan-cover.jpg"
+    },
+    {
+      "Identity": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\assets\\दुर-शिक्षा प्राणली नेपाल.png",
+      "SourceId": "Ebook",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\",
+      "BasePath": "_content/Ebook",
+      "RelativePath": "assets/दुर-शिक्षा प्राणली नेपाल.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\दुर-शिक्षा प्राणली नेपाल.png"
     },
     {
       "Identity": "E:\\Colz Notes\\Sixth Sem\\DotNet\\Ebook\\wwwroot\\css\\site.css",
